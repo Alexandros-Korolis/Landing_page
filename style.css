@@ -1,26 +1,45 @@
 body {
     font-family: Roboto;
-    margin: 0 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
     height: 100vh;
 }
 
-.header-bar {
+/*header css*/
+
+.header-container {
+    background-color: #1f2937;
+}
+
+.first-header {
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #1F2937;
-    padding-bottom: 20px;
+    padding-bottom:100px;
+}
+
+.logo, .links {
+    flex: 1;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
     font-weight: bold;
-    padding-left: 80px;
 }
 
-.logo, ul {
-    flex: 1;
+.text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.main-title p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 ul {
@@ -31,50 +50,101 @@ li {
     flex: 1;
     list-style-type: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
 }
 
 .second-header {
-    display:flex;
-    align-items: center;
-    background-color: #1F2937;
-}
-
-.header-img {
-    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
-    justify-content: center;
-    color: #E5E7EB;
-    font-size: 18px;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
-.header-under {
-    padding-left: 80px;
-    margin-bottom: 80px;
+.main-title {
+    flex: 1;
 }
 
-.hero-main {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-    margin-bottom: 0px;
-}
-
-.subtext {
-    color: #E5E7EB;
-    font-size: 18px;
-    margin-top: 0px;
-}
-
-.sign-up-header {
+.image {
+    flex: 1;
+    /*display: flex;
+    justify-content: center;*/
+    text-align: center;
     color: white;
-    background-color: rgb(67, 124, 247);
+}
+
+.sign-up {
+    background-color: rgb(53, 77, 216);
     border: none;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding:10px;
+    color: white;
     font-weight: bold;
     border-radius: 15px;
 }
+
+/*Main context css*/
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.rect {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid rgb(53, 77, 216);
+    margin: 0px auto 10px auto;
+}
+
+.main-container {
+   display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.container-one, .container-two, .container-three, .container-four {
+    width: 200px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.text-main {
+    text-align: center;
+    color: rgb(151, 146, 146);
+    font-size: 18px;
+}
+
+/*Third part of the page*/
+
+.second-main-container {
+    height: 35vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.second-main-container p {
+    font-size: 36px;
+    font: light italic;
+    color: #1f2937;
+}
+
+.thor {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+
+
+
 
 
 
