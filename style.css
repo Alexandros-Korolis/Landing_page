@@ -74,7 +74,7 @@ li {
 }
 
 .sign-up {
-    background-color: rgb(53, 77, 216);
+    background-color: #3882f6;
     border: none;
     padding:10px;
     color: white;
@@ -142,6 +142,57 @@ li {
     font-weight: bolder;
 }
 
+/*forth part of the page*/
+
+.third-main-container {
+    height: 35vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-container {
+    padding: 50px 170px 50px 170px ;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.new-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action{
+    margin-right: 80px;
+    font-size: 18px;
+    color: white;
+}
+
+.bottom-sign-up {
+    margin-left: 80px;
+    background-color:#3882f6 ;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+  
+/*footer section*/
+
+.footer {
+    height: 10vh;
+    width: auto;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
 
 
 
